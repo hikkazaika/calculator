@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <form name="form">
+                <input type="text" name="textview" readonly>
+            </form> 
+        </div>
+        <div class="body_element">
+            <div class="main_elements">
+                <button onclick="clean()">AC</button>
+                <button onclick="insert('/')">/</button>
+                <button onclick="insert('*')">x</button>
+                <button onclick="insert('7')">7</button>
+                <button onclick="insert('8')">8</button>
+                <button onclick="insert('9')">9</button>
+                <button onclick="insert('4')">4</button>
+                <button onclick="insert('5')">5</button>
+                <button onclick="insert('6')">6</button>
+                <button onclick="insert('1')">1</button>
+                <button onclick="insert('2')">2</button>
+                <button onclick="insert('3')">3</button>
+            </div>
+            <div class="side_elements">
+                <button onclick="insert('-')">-</button>
+                <button onclick="insert('+')">+</button>
+                <button onclick="insert('(')">(</button>
+                <button onclick="insert(')')">)</button>
+            </div>
+            <div class="footer_elementst">
+                <button onclick="insert('0')">0</button>
+                <button onclick="insert('.')">.</button>
+                <button onclick="equal()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
